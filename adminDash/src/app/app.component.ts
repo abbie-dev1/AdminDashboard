@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'adminDash';
+  sideBarOpen = true;
+
+  sideBarToggler() 
+  {
+    this.sideBarOpen = !this.sideBarOpen;
+  }
 }
